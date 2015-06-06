@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
         listApp = (ListView) findViewById(R.id.listApp);
         
         btnParse.setOnClickListener(new View.OnClickListener() {
-			
+			//nknnnlkjij
 			@Override
 			public void onClick(View v) {ParseApplications parseApplications = new ParseApplications(xmlData);
                 boolean operationStatus = parseApplications.process();
